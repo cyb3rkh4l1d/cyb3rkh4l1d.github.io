@@ -26,7 +26,7 @@ window.addEventListener('message', function(event) {
 });
 ```
 
-This allows exchange of data between different parts of a web application while adhering to browser security policies. However, insecure use of postMessage could lead to vulnerabilities like XSS (Cross-Site Scripting), as demonstrated below.
+This allows exchange of data between different parts of a web application while adhering to browser security policies. However, `insecure` use of postMessage could lead to vulnerabilities like `XSS (Cross-Site Scripting)`, as demonstrated below.
 
 # LAB SETUP
 
