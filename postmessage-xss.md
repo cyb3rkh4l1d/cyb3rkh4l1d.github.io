@@ -16,7 +16,7 @@ thirdPartyIframe.contentWindow.postMessage(message, 'https://third-party.com');
 
 Here, it accesses the window object of the embedded iframe, then invokes postMessage method to send the message to the iframe's window, ensuring it is received only by iframes loaded from the specified targetOrigin ('https://third-party.com').
 
-On the receiving side, the iframe must implement an event listener using `addEventListener` to receive the message sent from the sender:
+On the receiving side, the script must implement an event listener using `addEventListener` to receive the message sent from the sender:
 
 
 ```javascript
